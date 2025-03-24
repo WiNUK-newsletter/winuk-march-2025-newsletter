@@ -126,7 +126,7 @@ h4 {
   max-block-size: 300px;
 }
 .socialmedia {
-  color: var(--third-colour);
+  color: var(--blog-three);
   font-weight: bold;
 }
 .socialmedia a {
@@ -149,55 +149,45 @@ h4 {
 .socialmedia img {
   height: 300px;
 }
-.feedback {
-  background-color: #d55da0;
+.IWD {
+  background-color: #3e9f9f;
 }
-.decorative-element {
-  background-image: url("../images/decorative\ element.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80%;
-  height: 150px;
+.happy-IWD {
+  height: 320px;
+  width: 270px;
 }
 
-.arrow {
-  background-color: #dd429d;
-  text-align: center;
-
-  height: 440px;
-
-  --mask: radial-gradient(40.31px at 50% 55px, #000 99%, #0000 101%)
-      calc(50% - 40px) 0/80px 51% repeat-x,
-    radial-gradient(40.31px at 50% -35px, #0000 99%, #000 101%) 50% 20px/80px
-      calc(51% - 20px) repeat-x,
-    radial-gradient(40.31px at 50% calc(100% - 55px), #000 99%, #0000 101%)
-      calc(50% - 40px) 100%/80px 51% repeat-x,
-    radial-gradient(40.31px at 50% calc(100% + 35px), #0000 99%, #000 101%) 50%
-      calc(100% - 20px) / 80px calc(51% - 20px) repeat-x;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
+.past-events {
+  background-color: #9580bf;
 }
-
 .virtual-events {
   background-color: #4c9dc6;
 }
 .upcoming-events {
-  background-color: #3e9f9f;
+  background-color: #4c9dc6;
 }
-.speed {
-  height: 450px;
+.decoration {
   display: block;
   margin: 0 auto;
 }
-.socials {
-  background-color: var(--blog-three);
+
+.BAW {
+  background-color: #a04b7b;
+}
+.bawg {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
 }
 .social-media {
-  background-color: var(--blog-one);
+  background-color: var(--blog-three);
 }
-.rg {
-  height: 350px;
+.PTYL {
+  height: 400px;
+  display: block;
+  margin: 0 auto;
 }
+
 .blog,
 .review {
   background-color: var(--blog-one);
@@ -232,10 +222,7 @@ h4 {
 .third {
   background-color: #c29cc0;
 }
-.pregnancy {
-  display: block;
-  margin: 0 auto;
-}
+
 .fourth a {
   color: #613c61;
 }
@@ -289,6 +276,12 @@ a {
   }
   .speed {
     height: 300px;
+  }
+  .PTYL {
+    height: 300px;
+  }
+  .bawg {
+    height: 250px;
   }
   .content-box {
     width: 100%;
